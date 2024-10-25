@@ -1,0 +1,116 @@
+body {
+    font-family: nyala;
+    margin: 0;
+    padding: 0;
+    background-image: 
+        linear-gradient(rgb(0, 251, 255), rgba(64, 0, 0, 0.17)),
+        url('https://images.pexels.com/photos/3780662/pexels-photo-3780662.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #130073;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 10;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #b147008c;
+}
+
+.container {
+    background-color: #004692;
+    opacity: 0.8;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 4.5rem;
+    margin-bottom: 1.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.city-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.city-link {
+    background-color: #7686fa;
+    opacity: 0.8;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 20px 40px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    font-size: 25px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.city-link:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+    transform: translateY(-3px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #130073;
+    padding: 1rem;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5);
+    opacity: 0.8;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    color: white;
+    margin: 0;
+    font-size: 1rem;
+}
+
+.greeting {
+    position: fixed;
+    top: 100px; /* Ubah dari 20px ke 100px agar lebih ke bawah */
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: whitesmoke;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    z-index: 10;
+}
+
